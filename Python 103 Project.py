@@ -26,6 +26,6 @@ class PremiumAccount(BankAccount):
         super().withdraw(amount)
 
 user = PremiumAccount()
-user.deposit(1500)
+user.deposit(1350)
 user.withdraw(500)
 print('The current balance is :', user.get_balance())
