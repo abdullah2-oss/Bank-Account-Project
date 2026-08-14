@@ -22,7 +22,7 @@ class BankAccount:
 
 class PremiumAccount(BankAccount):
     def withdraw(self, amount):
-        print('Premium account ')
+        print('Premium account')
         super().withdraw(amount)
 
 user = PremiumAccount()
